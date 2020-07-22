@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Janak tripathee");
         //System.out.println("Java Automation\n");
 
-        SimpleDateFormat formatter= new SimpleDateFormat("yyyy-MM-dd 'at' HH:mm:ss z");
+        SimpleDateFormat formatter= new SimpleDateFormat("yyyy-MMM-dd 'at' HH:mm:ss z");
         Date date = new Date(System.currentTimeMillis());
         System.out.println(formatter.format(date));
 
