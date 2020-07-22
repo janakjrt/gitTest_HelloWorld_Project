@@ -1,12 +1,21 @@
 package com.company;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
         System.out.println("hello world ! from github.com..");
-        System.out.print("Sandes Lamsal");
+        System.out.println("Janak tripathee");
         //System.out.println("Java Automation\n");
+
+        SimpleDateFormat formatter= new SimpleDateFormat("yyyy-MM-dd 'at' HH:mm:ss z");
+        Date date = new Date(System.currentTimeMillis());
+        System.out.println(formatter.format(date));
+
+
 
         /*
         //4/6/2020 2:20 pm
