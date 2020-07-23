@@ -25,7 +25,10 @@ public class Main {
         */
         //https://github.com/qalamsal/gitTest_HelloWorld_Project.git
 
-        
+        int a=10, b=20;
+        int sum = a + b;
+        System.out.println(sum);
+
     }
 
 }
