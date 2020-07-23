@@ -14,8 +14,7 @@ public class Main {
         SimpleDateFormat formatter= new SimpleDateFormat("yyyy-MMM-dd 'at' HH:mm:ss z");
         Date date = new Date(System.currentTimeMillis());
         System.out.println(formatter.format(date));
-
-
+        System.out.println("another test");
 
         /*
         //4/6/2020 2:20 pm
@@ -25,5 +24,8 @@ public class Main {
         }
         */
         //https://github.com/qalamsal/gitTest_HelloWorld_Project.git
+
+        
     }
+
 }
