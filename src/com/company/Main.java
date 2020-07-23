@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         System.out.println("hello world ! from github.com..");
-        System.out.println("Janak tripathee");
+        System.out.println("Janak Tripathee");
         //System.out.println("Java Automation\n");
 
         SimpleDateFormat formatter= new SimpleDateFormat("yyyy-MMM-dd 'at' HH:mm:ss z");
